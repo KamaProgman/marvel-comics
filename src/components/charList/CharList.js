@@ -17,6 +17,7 @@ const CharList = (props) => {
 
     useEffect(() => {
         onRequest(offset, true);
+        console.log(charlist);
     }, [])
 
     const onRequest = (offset, initial) => {
