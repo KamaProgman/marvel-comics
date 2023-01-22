@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import useMarvelService from '../../hooks/service.hook';
 
-import useMarvelService from '../../services/MarvelService';
 import Spinner from '../spinner/Spinner';
 import ErrorMessage from '../errorMessage/ErrorMessage';
 import AppBanner from "../appBanner/AppBanner";

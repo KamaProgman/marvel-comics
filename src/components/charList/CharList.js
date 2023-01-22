@@ -4,7 +4,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 import Spinner from '../spinner/Spinner';
 import ErrorMessage from '../errorMessage/ErrorMessage';
-import useMarvelService from '../../services/MarvelService';
+import useMarvelService from '../../hooks/service.hook';
 import './charList.scss';
 
 const CharList = (props) => {
@@ -106,9 +106,5 @@ const CharList = (props) => {
         </div>
     )
 }
-
-// CharList.propTypes = {
-//     onCharSelected: PropTypes.func.isRequired
-// }
 
 export default CharList;
